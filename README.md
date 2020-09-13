@@ -6,3 +6,30 @@
 
 ### App Screenshot
 ![](public/assets/images/pizza-hunt.png)
+
+### App Deployed to Heroku
+
+https://pizza-hunt-app.herokuapp.com/
+
+### Concepts Covered
+
+- Used MongDB Atlas to host the database remotely.
+- Created models with Mongoose.
+- Used virtuals to extend the models' functionality.
+- Created subschemas and subdocuments with Mongoose.
+- Used IndexedDB to add offline functionality.
+- Validated models to normalize data.
+
+### Connecting to MongoDB
+
+- In the root directory, run the following command
+
+```text
+mongod --dbpath=/Users/<username>/MongoData
+```
+
+- Create a MongoDB Atlas Account
+- Create Production Database in Atlas
+- Set Up the Environment Variable in Heroku
+- Connect Production Database to App
+- Deploy to Heroku
